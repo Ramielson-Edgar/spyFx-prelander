@@ -275,7 +275,7 @@ padding: 0;
     content: '';
 
     top: 20%;
-    left: 30%;
+    left: 33%;
     transform: translate(-50%, -20%);
 
 
@@ -337,9 +337,8 @@ padding: 0;
     .hero-images-1 {display: none;}
     .hero-images-2{
 
-        display: block;
-        margin: 0 auto;
-    width: 320px;
+
+ 
     height: 400px;
 
     background-image: url("../../images/hero-img-2.png");
@@ -372,3 +371,7 @@ padding: 0;
 }
 
 
+@media (max-width:320px) {
+    
+    .hero-images-2 {width: 300px!important;}
+}
