@@ -191,13 +191,13 @@ padding: 0;
 
     margin-right: 20px;
 
-    background-image: url('/img/icons/icon-check.svg');
+    background-image: url('../images/img/icons/icon-check.svg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 
-.icon-plus::before {background-image: url('/img/icons/icon-plus.svg');}
+.icon-plus::before {background-image: url('../images/img/icons/icon-plus.svg');}
 
 .narrow--container {max-width: 400px;}
 
@@ -215,7 +215,7 @@ padding: 0;
     width: 456px;
     height: 456px;
 
-    background-image: url('/img/img/img-robot-face.png');
+    background-image: url('../images/img/img-robot-face.png');
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover;
@@ -301,7 +301,7 @@ padding: 0;
     width: 1068px;
     height: 645px;
 
-    background-image: url('/img/img/bg-transperent.png');
+    background-image: url('../images/img/bg-transperent.png');
     background-repeat: no-repeat;
     background-size: contain;
     z-index: -1;
@@ -372,25 +372,6 @@ height: 30px;
   }
  
 
-}
-
-
-.icon-particals {position: relative;}
-
-.icon-particals::before {
-    position: absolute;
-    display: block;
-    content: '';
-
-    width: 50px;
-    height: 50px;
- 
-    background-image: url('/img/icons/icon-particals.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    
-    top: 20px;
 }
 
 
