@@ -189,14 +189,14 @@ ul {
   width: 30px;
   height: 30px;
   margin-right: 20px;
-  background-image: url("../images/icons/icon-check.svg");
+  background-image: url("/images/icon-check.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 
 .icon-plus::before {
-  background-image: url("../images/icons/icon-plus.svg");
+  background-image: url("../images/icon-plus.svg");
 }
 
 .narrow--container {
@@ -218,7 +218,7 @@ ul {
   content: '';
   width: 456px;
   height: 456px;
-  background-image: url("../images/img/img-robot-face.png");
+  background-image: url("../images/img-robot-face.png");
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
@@ -270,25 +270,6 @@ ul {
   background: linear-gradient(179.98deg, #1A1824 0.1%, rgba(47, 47, 47, 0) 80%);
 }
 
-.line-list {
-  position: relative;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-}
-
-.line::before {
-  position: absolute;
-  display: block;
-  top: 0;
-  content: '';
-  width: .3px;
-  height: 100vh;
-  background-color: rgba(89, 144, 255, 0.2);
-  z-index: var(--z-index-minus);
-}
-
 .split-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -314,108 +295,10 @@ ul {
   right: -5%;
   width: 1068px;
   height: 645px;
-  background-image: url("../images/img/bg-transperent.png");
+  background-image: url("../images/bg-transperent.png");
   background-repeat: no-repeat;
   background-size: contain;
   z-index: -1;
-}
-
-.bar {
-  width: 10px;
-  height: 30px;
-  background-color: var(--accent-spyfx-color);
-  -webkit-animation: bar  2s infinite ease-in-out;
-          animation: bar  2s infinite ease-in-out;
-}
-
-.line:first-child > .bar {
-  position: relative;
-  bottom: -20px;
-}
-
-.line:nth-child(2) {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-right: 170px;
-}
-
-.line:nth-child(2) > .bar {
-  position: relative;
-  bottom: -150px;
-}
-
-.line:last-child {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-}
-
-.line:last-child > .bar {
-  position: relative;
-  bottom: -700px;
-}
-
-@-webkit-keyframes bar {
-  from {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  50% {
-    -webkit-transform: translateY(10px);
-            transform: translateY(10px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-  }
-}
-
-@keyframes bar {
-  from {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  50% {
-    -webkit-transform: translateY(10px);
-            transform: translateY(10px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-  }
 }
 
 @media (max-width: 1198.98px) {
@@ -449,9 +332,6 @@ ul {
 @media (max-width: 1200.98px) {
   .overlay-gradient {
     width: 700px;
-  }
-  .line-list {
-    margin-left: 0;
   }
 }
 
