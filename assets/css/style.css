@@ -189,14 +189,14 @@ ul {
   width: 30px;
   height: 30px;
   margin-right: 20px;
-  background-image: url("../images/img/icons/icon-check.svg");
+  background-image: url("../images/icons/icon-check.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 
 .icon-plus::before {
-  background-image: url("../images/img/icons/icon-plus.svg");
+  background-image: url("../images/icons/icon-plus.svg");
 }
 
 .narrow--container {
