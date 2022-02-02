@@ -274,11 +274,15 @@ padding: 0;
     position: absolute;
     content: '';
 
-    top: -50%;
-    right: -5%;
+    top: 20%;
+    left: 30%;
+    transform: translate(-50%, -20%);
 
-    width: 1068px;
-    height: 645px;
+
+    width: 100%;
+    height: 425px;
+    max-width: 550px;
+ 
 
     background-image: url("../../images/bg-transperent.png");
     background-repeat: no-repeat;
@@ -287,25 +291,13 @@ padding: 0;
    }
 
 
-@media (max-width:1198.98px) {
-    .hero-img::before { right: -20%;} 
-    
-}
-
 @media (max-width:1024.98px) {
-
-    .hero-img::before { 
-        width: 1000px;
-        right: -30px;}
-    
-      .overlay-gradient {width: 600px!important;}
+ .overlay-gradient {width: 600px!important;}
 } 
 
 @media (max-width:991.98px) {
-    .hero-img::before { right: -150px;}
-    .hero-img { width: 600px;}
     .main-list .main-item .main-item-text {font-size: 1rem;}
-   
+    .hero-img > img {width: 500px;}
 }
 
 
@@ -325,13 +317,15 @@ padding: 0;
 
     .main-description {font-size: 1.2rem;}
     .offer-construction {margin-bottom: 30px;}
-     .hero-img::before {right: 30px;}
 }
 
 @media (max-width: 575.98px) {
     .main-header {margin-top: 30px;}
       .main-nav {margin-bottom: 40px;}
+
       .split-wrapper {text-align: center;}
+       .main-item .main-item-text {text-align: left;}
+
       .offer-construction {margin-bottom: 40px;}
 
       .offer-construction::before {
@@ -340,41 +334,41 @@ padding: 0;
         left: -40px;
       }
 
-        .hero-img{width: 100%;}
-      .hero-img::before {
-    top: -30%;
-    width: 500px;
-    left: -206px;}
+    .hero-images-1 {display: none;}
+    .hero-images-2{
+
+        display: block;
+        margin: 0 auto;
+    width: 320px;
+    height: 400px;
+
+    background-image: url("../../images/hero-img-2.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+    }
+
+   
 }
 
+ 
 
-@media (max-width: 350.98px) {
-     .main-logo img { width: 100px;}
+@media (max-width: 375.98px) {
+      .main-header {margin-top: 20px;}
  
       .offer-construction::before {
-        width: 375px;
-        left: -80px;
+        width: 370px;
+        left: -60%;
       }
 
+       .main-logo img { width: 100px;}
+ 
+ 
       .ghost-btn a {
           font-size: 15px;
           padding: 10px 10px;}
-          
-    
-}
 
-
-@media (max-width: 375.98px) {
- 
-      .offer-construction::before {
-        width: 375px;
-        left: -80px;
-      }
-
-      .hero-img::before {
-        top: -80%;
-        left: -240px;
-      }
+           .hero-img::before {top: 0;}
 }
 
 
