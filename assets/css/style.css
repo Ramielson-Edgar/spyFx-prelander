@@ -189,14 +189,14 @@ ul {
   width: 30px;
   height: 30px;
   margin-right: 20px;
-  background-image: url("../images/icons/icon-check.svg");
+  background-image: url("/images/icons/icon-check.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 
 .icon-plus::before {
-  background-image: url("../images/icons/icon-plus.svg");
+  background-image: url("/images/icons/icon-plus.svg");
 }
 
 .narrow--container {
@@ -218,7 +218,7 @@ ul {
   content: '';
   width: 456px;
   height: 456px;
-  background-image: url("../images/img/img-robot-face.png");
+  background-image: url("/images/img/img-robot-face.png");
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
@@ -314,7 +314,7 @@ ul {
   right: -5%;
   width: 1068px;
   height: 645px;
-  background-image: url("../images/img/bg-transperent.png");
+  background-image: url("/images/img/bg-transperent.png");
   background-repeat: no-repeat;
   background-size: contain;
   z-index: -1;
